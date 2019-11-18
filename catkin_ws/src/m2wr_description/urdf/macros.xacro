@@ -21,4 +21,16 @@
             </visual>
         </link>
     </macro>
+
+    <macro name="joint_wheel" params="name child_link origin_xyz">
+        <joint name="${name}" type="continuous">
+            <origin rpy="0 0 0" xyz="${origin_xyz}"/>
+            <child link="${child_link}"/>
+            <parent link="link_chassis"/>
+            <axis rpy="0 0 0" xyz="0 1 0"/>
+            <!-- Where the joint is going to rotate -->
+            <limit effort="10000" velocity="1000"/>
+            <joint_properties damping="1.0" friction="1.0"/>
+        </joint>
+    </macro>
 </robot>
