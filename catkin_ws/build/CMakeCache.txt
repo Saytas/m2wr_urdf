@@ -268,6 +268,9 @@ catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/kinetic/share/geometry_msgs/cmake
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build/gtest
 
@@ -320,6 +323,18 @@ m2wr_description_SOURCE_DIR:STATIC=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 
+//Value Computed by CMake
+motion_planning_BINARY_DIR:STATIC=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build/motion_planning
+
+//Value Computed by CMake
+motion_planning_SOURCE_DIR:STATIC=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/src/motion_planning
+
+//Value Computed by CMake
+robot_worlds_BINARY_DIR:STATIC=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build/robot_worlds
+
+//Value Computed by CMake
+robot_worlds_SOURCE_DIR:STATIC=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/src/robot_worlds
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
 
@@ -338,8 +353,14 @@ roscpp_traits_DIR:PATH=/opt/ros/kinetic/share/roscpp_traits/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/kinetic/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/kinetic/share/rospy/cmake
+
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/kinetic/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
@@ -452,7 +473,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

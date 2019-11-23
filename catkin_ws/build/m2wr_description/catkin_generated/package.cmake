@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "m2wr_description")
-set(m2wr_description_VERSION "0.0.0")
-set(m2wr_description_MAINTAINER "sytasch <sytasch@todo.todo>")
+set(m2wr_description_VERSION "0.0.1")
+set(m2wr_description_MAINTAINER "Selahittin Saytaş <selahittinsaytas@gmail.com>")
 set(m2wr_description_PACKAGE_FORMAT "2")
 set(m2wr_description_BUILD_DEPENDS "urdf")
 set(m2wr_description_BUILD_EXPORT_DEPENDS "urdf")

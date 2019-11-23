@@ -5,4 +5,4 @@ PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "m2wr_description"
 PROJECT_SPACE_DIR = "/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/devel"
-PROJECT_VERSION = "0.0.0"
+PROJECT_VERSION = "0.0.1"

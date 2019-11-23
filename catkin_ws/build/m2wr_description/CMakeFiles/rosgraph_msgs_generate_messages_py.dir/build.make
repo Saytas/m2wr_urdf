@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sytasch/ROS/2wr/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sytasch/ROS/2wr/catkin_ws/build
+CMAKE_BINARY_DIR = /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ m2wr_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosgra
 .PHONY : m2wr_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 m2wr_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd /home/sytasch/ROS/2wr/catkin_ws/build/m2wr_description && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build/m2wr_description && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : m2wr_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 m2wr_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/sytasch/ROS/2wr/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sytasch/ROS/2wr/catkin_ws/src /home/sytasch/ROS/2wr/catkin_ws/src/m2wr_description /home/sytasch/ROS/2wr/catkin_ws/build /home/sytasch/ROS/2wr/catkin_ws/build/m2wr_description /home/sytasch/ROS/2wr/catkin_ws/build/m2wr_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/src /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/src/m2wr_description /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build/m2wr_description /home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/build/m2wr_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : m2wr_description/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

@@ -1,2 +1,2 @@
-m2wr_description
+m2wr_description:motion_planning:robot_worlds
 -DCATKIN_DEVEL_PREFIX=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/install -G Unix Makefiles
