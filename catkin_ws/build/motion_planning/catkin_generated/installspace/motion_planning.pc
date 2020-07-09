@@ -1,8 +1,0 @@
-prefix=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/install
-
-Name: motion_planning
-Description: Description of motion_planning
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/install/lib 
-Requires: 

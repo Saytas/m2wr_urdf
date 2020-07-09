@@ -1,8 +1,0 @@
-prefix=/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/install
-
-Name: robot_worlds
-Description: Description of robot_worlds
-Version: 0.0.1
-Cflags: 
-Libs: -L/home/sytasch/GITHUB_CLONES/m2wr_urdf/catkin_ws/install/lib 
-Requires: 

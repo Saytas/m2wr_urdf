@@ -33,6 +33,9 @@ $ catkin_make
 $ source devel/setup.bash
 $ cd catkin_ws/src
 $ git clone https://github.com/Saytas/m2wr_urdf
+OR create your own package
+$ catkin_create_pkg "package_name" urdf
+$ catkin_create_pkg "package_name" rospy
 ```
 
    [Ubuntu 16.04]: <https://releases.ubuntu.com/16.04/>
