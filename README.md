@@ -38,15 +38,9 @@ $ catkin_create_pkg "package_name" urdf
 $ catkin_create_pkg "package_name" rospy
 $ rostopic hz /m2wr/laser/scan
 $ catkin_create_pkg motion_planning rospy std_msgs geometry_msgs sensor_msgs
+$ roslaunch m2wr_description spawn.launch y:=8
 ```
 
    [Ubuntu 16.04]: <https://releases.ubuntu.com/16.04/>
    [ROS]: <https://www.ros.org/>
    [Kinetic]: <http://wiki.ros.org/kinetic>
-
-
-
-
-
-
-

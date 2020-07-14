@@ -9,7 +9,6 @@ Panels:
         - /RobotState1
         - /Axes1
         - /LaserScan1
-        - /LaserScan1/Status1
       Splitter Ratio: 0.5
     Tree Height: 448
   - Class: rviz/Selection
@@ -133,7 +132,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: odom
+    Fixed Frame: link_chassis
     Frame Rate: 30
   Name: root
   Tools:
