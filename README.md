@@ -36,6 +36,8 @@ $ git clone https://github.com/Saytas/m2wr_urdf
 OR create your own package
 $ catkin_create_pkg "package_name" urdf
 $ catkin_create_pkg "package_name" rospy
+$ rostopic hz /m2wr/laser/scan
+$ catkin_create_pkg motion_planning rospy std_msgs geometry_msgs sensor_msgs
 ```
 
    [Ubuntu 16.04]: <https://releases.ubuntu.com/16.04/>
