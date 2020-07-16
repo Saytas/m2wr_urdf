@@ -12,7 +12,7 @@ def callback_laser(msg):
         'front_right': min(min(msg.ranges[144:287]), 10),
         'front':  min(min(msg.ranges[288:431]), 10),
         'front_left':  min(min(msg.ranges[432:575]), 10),
-        'left':   min(min(msg.ranges[576:719]), 10),
+        'left':   min(min(msg.ranges[576:713]), 10),
     }
     
     take_action(regions)
